@@ -1,0 +1,709 @@
+=== HPC Challenge Benchmark Results ===
+Date: Sat Feb 16 13:23:27 PM UTC 2025
+System: 2 nodes, 2 cores each, 2GB RAM each
+----------------------------------------
+HPL Performance:
+HPL_Tflops=0.00344913
+HPL_Tflops=0.00400778
+HPL_Tflops=0.00344158
+HPL_Tflops=0.00374352
+HPL_Tflops=0.00409607
+HPL_Tflops=0.00566077
+HPL_Tflops=0.00643043
+HPL_Tflops=0.0051705
+HPL_Tflops=0.0077621
+HPL_Tflops=0.00592712
+HPL_Tflops=0.00351873
+HPL_Tflops=0.00319684
+HPL_Tflops=0.0036653
+----------------------------------------
+STREAM Memory Bandwidth:
+STREAM_VectorSize=2184533
+STREAM_Threads=1
+StarSTREAM_Copy=40.0356
+StarSTREAM_Scale=36.7553
+StarSTREAM_Add=35.1606
+StarSTREAM_Triad=41.8989
+SingleSTREAM_Copy=40.5984
+SingleSTREAM_Scale=36.7553
+SingleSTREAM_Add=38.2529
+SingleSTREAM_Triad=42.2688
+STREAM_VectorSize=2184533
+STREAM_Threads=1
+StarSTREAM_Copy=45.2802
+StarSTREAM_Scale=37.8011
+StarSTREAM_Add=39.9273
+StarSTREAM_Triad=45.2201
+SingleSTREAM_Copy=45.9567
+SingleSTREAM_Scale=37.8011
+SingleSTREAM_Add=39.9273
+SingleSTREAM_Triad=45.2201
+STREAM_VectorSize=2184533
+STREAM_Threads=1
+StarSTREAM_Copy=37.053
+StarSTREAM_Scale=29.8298
+StarSTREAM_Add=34.1703
+StarSTREAM_Triad=34.219
+SingleSTREAM_Copy=38.8201
+SingleSTREAM_Scale=30.5955
+SingleSTREAM_Add=34.2533
+SingleSTREAM_Triad=37.0036
+STREAM_VectorSize=2184533
+STREAM_Threads=1
+StarSTREAM_Copy=40.1265
+StarSTREAM_Scale=34.7487
+StarSTREAM_Add=35.1834
+StarSTREAM_Triad=40.2372
+SingleSTREAM_Copy=43.9436
+SingleSTREAM_Scale=35.6081
+SingleSTREAM_Add=36.6755
+SingleSTREAM_Triad=44.3401
+STREAM_VectorSize=2184533
+STREAM_Threads=1
+StarSTREAM_Copy=43.1944
+StarSTREAM_Scale=40.0032
+StarSTREAM_Add=39.6243
+StarSTREAM_Triad=41.8377
+SingleSTREAM_Copy=45.2947
+SingleSTREAM_Scale=40.0032
+SingleSTREAM_Add=41.3759
+SingleSTREAM_Triad=45.387
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=71.6054
+StarSTREAM_Scale=72.6016
+StarSTREAM_Add=77.2064
+StarSTREAM_Triad=79.1355
+SingleSTREAM_Copy=116.083
+SingleSTREAM_Scale=119.893
+SingleSTREAM_Add=121.684
+SingleSTREAM_Triad=122.051
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=101.777
+StarSTREAM_Scale=106.254
+StarSTREAM_Add=109.048
+StarSTREAM_Triad=108.521
+SingleSTREAM_Copy=114.878
+SingleSTREAM_Scale=115.871
+SingleSTREAM_Add=121.385
+SingleSTREAM_Triad=122.312
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=62.3473
+StarSTREAM_Scale=62.5227
+StarSTREAM_Add=62.0509
+StarSTREAM_Triad=61.9557
+SingleSTREAM_Copy=93.0315
+SingleSTREAM_Scale=88.1306
+SingleSTREAM_Add=87.8422
+SingleSTREAM_Triad=85.3986
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=99.0549
+StarSTREAM_Scale=97.669
+StarSTREAM_Add=100.895
+StarSTREAM_Triad=101.69
+SingleSTREAM_Copy=110.302
+SingleSTREAM_Scale=108.861
+SingleSTREAM_Add=116.022
+SingleSTREAM_Triad=116.127
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=77.0153
+StarSTREAM_Scale=97.8913
+StarSTREAM_Add=101.978
+StarSTREAM_Triad=103.645
+SingleSTREAM_Copy=114.675
+SingleSTREAM_Scale=115.071
+SingleSTREAM_Add=119.42
+SingleSTREAM_Triad=120.221
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=11.8743
+StarSTREAM_Scale=12.197
+StarSTREAM_Add=17.4084
+StarSTREAM_Triad=17.1578
+SingleSTREAM_Copy=108.15
+SingleSTREAM_Scale=113.794
+SingleSTREAM_Add=116.16
+SingleSTREAM_Triad=119.893
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=11.9806
+StarSTREAM_Scale=12.2882
+StarSTREAM_Add=16.9474
+StarSTREAM_Triad=17.5375
+SingleSTREAM_Copy=116.331
+SingleSTREAM_Scale=118.66
+SingleSTREAM_Add=122.133
+SingleSTREAM_Triad=123.682
+STREAM_VectorSize=166666
+STREAM_Threads=1
+StarSTREAM_Copy=12.2876
+StarSTREAM_Scale=12.3
+StarSTREAM_Add=16.843
+StarSTREAM_Triad=17.6414
+SingleSTREAM_Copy=116.382
+SingleSTREAM_Scale=116.585
+SingleSTREAM_Add=121.98
+SingleSTREAM_Triad=122.921
+----------------------------------------
+DGEMM Performance:
+DGEMM_N=1477
+StarDGEMM_Gflops=3.54674
+SingleDGEMM_Gflops=3.52551
+DGEMM_N=1477
+StarDGEMM_Gflops=3.9612
+SingleDGEMM_Gflops=4.18274
+DGEMM_N=1477
+StarDGEMM_Gflops=2.80262
+SingleDGEMM_Gflops=3.31205
+DGEMM_N=1477
+StarDGEMM_Gflops=3.32945
+SingleDGEMM_Gflops=4.1409
+DGEMM_N=1477
+StarDGEMM_Gflops=4.21003
+SingleDGEMM_Gflops=4.17969
+DGEMM_N=407
+StarDGEMM_Gflops=3.26915
+SingleDGEMM_Gflops=4.14927
+DGEMM_N=407
+StarDGEMM_Gflops=2.2251
+SingleDGEMM_Gflops=3.65982
+DGEMM_N=407
+StarDGEMM_Gflops=3.59811
+SingleDGEMM_Gflops=4.09456
+DGEMM_N=407
+StarDGEMM_Gflops=2.99703
+SingleDGEMM_Gflops=4.10856
+DGEMM_N=407
+StarDGEMM_Gflops=4.06105
+SingleDGEMM_Gflops=4.02597
+DGEMM_N=407
+StarDGEMM_Gflops=2.4531
+SingleDGEMM_Gflops=2.28072
+DGEMM_N=407
+StarDGEMM_Gflops=3.21993
+SingleDGEMM_Gflops=3.64848
+DGEMM_N=407
+StarDGEMM_Gflops=3.50657
+SingleDGEMM_Gflops=3.3349
+----------------------------------------
+PTRANS Network Bandwidth:
+PTRANS_GBs=0.890089
+PTRANS_time=0.0136156
+PTRANS_residual=0
+PTRANS_n=1280
+PTRANS_nb=80
+PTRANS_nprow=1
+PTRANS_npcol=1
+PTRANS_GBs=0.984767
+PTRANS_time=0.0123546
+PTRANS_residual=0
+PTRANS_n=1280
+PTRANS_nb=80
+PTRANS_nprow=1
+PTRANS_npcol=1
+PTRANS_GBs=1.0631
+PTRANS_time=0.010797
+PTRANS_residual=0
+PTRANS_n=1280
+PTRANS_nb=80
+PTRANS_nprow=1
+PTRANS_npcol=1
+PTRANS_GBs=1.03224
+PTRANS_time=0.0115247
+PTRANS_residual=0
+PTRANS_n=1280
+PTRANS_nb=80
+PTRANS_nprow=1
+PTRANS_npcol=1
+PTRANS_GBs=1.04121
+PTRANS_time=0.0123365
+PTRANS_residual=0
+PTRANS_n=1280
+PTRANS_nb=80
+PTRANS_nprow=1
+PTRANS_npcol=1
+PTRANS_GBs=6.03976
+PTRANS_time=0.000195641
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+PTRANS_GBs=4.59996
+PTRANS_time=0.000253932
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+PTRANS_GBs=4.67756
+PTRANS_time=0.000189931
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+PTRANS_GBs=4.2933
+PTRANS_time=0.000304707
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+PTRANS_GBs=4.58952
+PTRANS_time=0.000181053
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+PTRANS_GBs=0.10869
+PTRANS_time=0.00986509
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+PTRANS_GBs=0.123946
+PTRANS_time=0.00712118
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+PTRANS_GBs=0.107402
+PTRANS_time=0.0105676
+PTRANS_residual=0
+PTRANS_n=500
+PTRANS_nb=16
+PTRANS_nprow=1
+PTRANS_npcol=2
+----------------------------------------
+RandomAccess Performance:
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=4194304
+MPIRandomAccess_LCG_time=0.75581
+MPIRandomAccess_LCG_CheckTime=0.110001
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=16777216
+MPIRandomAccess_LCG_GUPs=0.0221977
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=4194304
+MPIRandomAccess_time=0.728539
+MPIRandomAccess_CheckTime=0.110222
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=16777216
+MPIRandomAccess_GUPs=0.0230286
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=4194304
+StarRandomAccess_LCG_GUPs=0.202692
+SingleRandomAccess_LCG_GUPs=0.200213
+RandomAccess_N=4194304
+StarRandomAccess_GUPs=0.186345
+SingleRandomAccess_GUPs=0.188183
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=4194304
+MPIRandomAccess_LCG_time=0.695052
+MPIRandomAccess_LCG_CheckTime=0.094618
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=16777216
+MPIRandomAccess_LCG_GUPs=0.0241381
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=4194304
+MPIRandomAccess_time=0.627445
+MPIRandomAccess_CheckTime=0.0933681
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=16777216
+MPIRandomAccess_GUPs=0.026739
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=4194304
+StarRandomAccess_LCG_GUPs=0.223843
+SingleRandomAccess_LCG_GUPs=0.221845
+RandomAccess_N=4194304
+StarRandomAccess_GUPs=0.215943
+SingleRandomAccess_GUPs=0.217846
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=4194304
+MPIRandomAccess_LCG_time=1.22255
+MPIRandomAccess_LCG_CheckTime=0.10435
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=16777216
+MPIRandomAccess_LCG_GUPs=0.0137231
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=4194304
+MPIRandomAccess_time=0.846499
+MPIRandomAccess_CheckTime=0.107282
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=16777216
+MPIRandomAccess_GUPs=0.0198195
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=4194304
+StarRandomAccess_LCG_GUPs=0.166144
+SingleRandomAccess_LCG_GUPs=0.207122
+RandomAccess_N=4194304
+StarRandomAccess_GUPs=0.157519
+SingleRandomAccess_GUPs=0.117431
+Begin of MPIRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=4194304
+MPIRandomAccess_LCG_time=0.852083
+MPIRandomAccess_LCG_CheckTime=0.10194
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=16777216
+MPIRandomAccess_LCG_GUPs=0.0196896
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=4194304
+MPIRandomAccess_time=1.15485
+MPIRandomAccess_CheckTime=0.0982887
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=16777216
+MPIRandomAccess_GUPs=0.0145276
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=4194304
+StarRandomAccess_LCG_GUPs=0.187886
+SingleRandomAccess_LCG_GUPs=0.175645
+RandomAccess_N=4194304
+StarRandomAccess_GUPs=0.166486
+SingleRandomAccess_GUPs=0.172993
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=4194304
+MPIRandomAccess_LCG_time=0.729157
+MPIRandomAccess_LCG_CheckTime=0.0953137
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=16777216
+MPIRandomAccess_LCG_GUPs=0.023009
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=4194304
+MPIRandomAccess_time=0.706547
+MPIRandomAccess_CheckTime=0.100019
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=16777216
+MPIRandomAccess_GUPs=0.0237454
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=4194304
+StarRandomAccess_LCG_GUPs=0.212885
+SingleRandomAccess_LCG_GUPs=0.234599
+RandomAccess_N=4194304
+StarRandomAccess_GUPs=0.195006
+SingleRandomAccess_GUPs=0.21478
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=0.027382
+MPIRandomAccess_LCG_CheckTime=0.00878829
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.0765887
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=0.0261903
+MPIRandomAccess_CheckTime=0.00630699
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.0800735
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=1.01366
+SingleRandomAccess_LCG_GUPs=1.11959
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.726771
+SingleRandomAccess_GUPs=0.959834
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=0.0263891
+MPIRandomAccess_LCG_CheckTime=0.00588888
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.0794704
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=0.0292789
+MPIRandomAccess_CheckTime=0.00605158
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.0716268
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=0.919574
+SingleRandomAccess_LCG_GUPs=1.09467
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.829702
+SingleRandomAccess_GUPs=0.543836
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=0.0253089
+MPIRandomAccess_LCG_CheckTime=0.00607907
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.0828621
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=0.0256976
+MPIRandomAccess_CheckTime=0.00611351
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.0816088
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=0.839314
+SingleRandomAccess_LCG_GUPs=0.900521
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.806835
+SingleRandomAccess_GUPs=0.585653
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=0.0261359
+MPIRandomAccess_LCG_CheckTime=0.00588172
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.0802402
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=0.0288004
+MPIRandomAccess_CheckTime=0.00596357
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.0728166
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=1.01722
+SingleRandomAccess_LCG_GUPs=0.985406
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.743773
+SingleRandomAccess_GUPs=0.844113
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=0.037597
+MPIRandomAccess_LCG_CheckTime=0.0060945
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.0557798
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=0.0279905
+MPIRandomAccess_CheckTime=0.00587341
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.0749236
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=0.778767
+SingleRandomAccess_LCG_GUPs=0.825433
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.893927
+SingleRandomAccess_GUPs=0.818807
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=1.39902
+MPIRandomAccess_LCG_CheckTime=0.7364
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.00149901
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=1.43169
+MPIRandomAccess_CheckTime=0.741205
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.00146481
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=0.640657
+SingleRandomAccess_LCG_GUPs=0.56337
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.591699
+SingleRandomAccess_GUPs=0.817886
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=1.42085
+MPIRandomAccess_LCG_CheckTime=0.716263
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.00147599
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=1.38195
+MPIRandomAccess_CheckTime=0.757307
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.00151753
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=0.661629
+SingleRandomAccess_LCG_GUPs=0.776431
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.585341
+SingleRandomAccess_GUPs=0.763382
+Begin of MPIRandomAccess_LCG section.
+End of MPIRandomAccess_LCG section.
+Begin of StarRandomAccess_LCG section.
+End of StarRandomAccess_LCG section.
+Begin of SingleRandomAccess_LCG section.
+End of SingleRandomAccess_LCG section.
+MPIRandomAccess_LCG_N=524288
+MPIRandomAccess_LCG_time=1.40831
+MPIRandomAccess_LCG_CheckTime=0.728411
+MPIRandomAccess_LCG_Errors=0
+MPIRandomAccess_LCG_ErrorsFraction=0
+MPIRandomAccess_LCG_ExeUpdates=2097152
+MPIRandomAccess_LCG_GUPs=0.00148913
+MPIRandomAccess_LCG_TimeBound=60
+MPIRandomAccess_LCG_Algorithm=0
+MPIRandomAccess_N=524288
+MPIRandomAccess_time=1.40567
+MPIRandomAccess_CheckTime=0.740742
+MPIRandomAccess_Errors=0
+MPIRandomAccess_ErrorsFraction=0
+MPIRandomAccess_ExeUpdates=2097152
+MPIRandomAccess_GUPs=0.00149193
+MPIRandomAccess_TimeBound=60
+MPIRandomAccess_Algorithm=0
+RandomAccess_LCG_N=262144
+StarRandomAccess_LCG_GUPs=0.707068
+SingleRandomAccess_LCG_GUPs=0.670591
+RandomAccess_N=262144
+StarRandomAccess_GUPs=0.574165
+SingleRandomAccess_GUPs=0.712875
+----------------------------------------
+FFT Performance:
+FFT_N=1048576
+FFT_N=1048576
+FFT_N=1048576
+FFT_N=1048576
+FFT_N=1048576
+FFT_N=65536
+FFT_N=65536
+FFT_N=65536
+FFT_N=65536
+FFT_N=65536
+FFT_N=65536
+FFT_N=65536
+FFT_N=65536
